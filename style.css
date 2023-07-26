@@ -1,0 +1,44 @@
+body{margin: 0;padding: 0;}
+#slide1{background-image:linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 5%)),url(banner1.png);background-size: cover;}
+#slide2{background-image:linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 5%)),url(banner2.png);background-size: cover;}
+#slide3{background-image:linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 5%)),url(banner3.png);background-size: cover;}
+#slide4{background-image:linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 5%)),url(banner4.png);background-size: cover;}
+.main{max-width:1140px}
+
+.countdown > * {
+    height: 1em;
+    display: inline-block;
+    overflow-y: hidden;
+    font-family: sans-serif;
+    font-weight: 700;
+    }
+    .singlebox{
+        padding: 37px;
+        box-shadow: 1px 1px 20px #52525285;
+    }
+
+.container.grid.grid-cols-4 {
+    margin-top: 30px;
+    gap: 25px;
+}
+
+.singlebox img {margin: auto;}
+
+.singlebox h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.singlebox p {
+    text-align: center;
+    margin: 9px 0;
+    color: #000000cc;
+}
+
+
+
+
+

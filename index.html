@@ -25,10 +25,10 @@
       </script>
 </head>
 <body>
-    <header md:container mx-auto>
+    <header md:container mx-auto max-w-[1140px] overflow-hidden>
         <!--navbar-->
         <nav>
-<div class="navbar bg-base-100 md:w-[92%] m-auto bg-[#F85559] rounded-full my-4 md:p-6 md:my-12
+        <div class="navbar bg-base-100 md:w-[99%] m-auto bg-[#F85559] rounded-full my-4 md:p-6 md:my-14
          text-white md:px-[20px]">
                 <div class=" navbar-start hidden lg:flex">
                     <ul class="space-x-7 menu-horizontal px-1 ml-5">
@@ -43,8 +43,8 @@
                     <label tabindex="0" class="btn btn-ghost md:hidden">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label><ul tabindex="0" class="text-black menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Home<a></li>
-                        <li><a>About Us</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>About us</a></li>
                         <li><a>Shop</a></li>
                         <li><a>All Fruits</a></li>
                       </ul>
@@ -61,7 +61,219 @@
         </nav>
     </header>
     
-    <main>
+    <main class="mx-auto main">
+        <!--banner-->
+        <section class=" md:h-[700px] h-[260px] relative mb-0 md:mb-[50px]">
+            <div class="carousel w-full md:h-[600px] h-[250px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class=" btn btn-circle">❮</a> 
+                      <div class="text-white text-center ">
+                    <h2 class="leading-[30PX] md:leading-[60PX] m-t text-2xl md:text-5xl font-bold mt-[0px] md:mt-[-120px] mb-[10px] md:mb-[40px] ">Exotic tastes at your doorstep</h2>
+                    <p class="text-sm md:text-lg">We supply highly quality organic products</p>
+                    <button class="md:mt-[40px] md:p-4 bg-[#F85559] border-none  text-white mt-[20px] btn btn-primary">Shop Now</button>
+                      </div>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class=" btn btn-circle">❮</a> 
+                      <div class="text-white text-center ">
+                    <h2 class="leading-[30PX] md:leading-[60PX] m-t text-2xl md:text-5xl font-bold mt-[0px] md:mt-[-120px] mb-[10px] md:mb-[40px] ">Exotic tastes at your doorstep</h2>
+                    <p class="text-sm md:text-lg">We supply highly quality organic products</p>
+                    <button class="md:mt-[40px] md:p-4 bg-[#F85559] border-none  text-white mt-[20px] btn btn-primary">Shop Now</button>
+                      </div>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class=" btn btn-circle">❮</a> 
+                      <div class="text-white text-center ">
+                    <h2 class="leading-[30PX] md:leading-[60PX] m-t text-2xl md:text-5xl font-bold mt-[0px] md:mt-[-120px] mb-[10px] md:mb-[40px] ">Exotic tastes at your doorstep</h2>
+                    <p class="text-sm md:text-lg">We supply highly quality organic products</p>
+                    <button class="md:mt-[40px] md:p-4 bg-[#F85559] border-none  text-white mt-[20px] btn btn-primary">Shop Now</button>
+                      </div>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class=" btn btn-circle">❮</a> 
+                      <div class="text-white text-center ">
+                    <h2 class="leading-[30PX] md:leading-[60PX] m-t text-2xl md:text-5xl font-bold mt-[0px] md:mt-[-120px] mb-[10px] md:mb-[40px] ">Exotic tastes at your doorstep</h2>
+                    <p class="text-sm md:text-lg">We supply highly quality organic products</p>
+                    <button class="md:mt-[40px] md:p-4 bg-[#F85559] border-none  text-white mt-[20px] btn btn-primary">Shop Now</button>
+                      </div>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                
+                
+              </div>
+
+              
+              <div class="overflow-hidden md:visible invisible flex absolute top-[500px] bg-red-50 px-4 md:px-14 py-2 md:py-10  md:gap-14 rounded-2xl  mx-14">
+                <img class="ml-0 w-[15%] h-[15%]" src="fruit1.png" alt="">
+                <img class="ml-0 w-[15%] h-[15%]" src="fruit2.png" alt="">
+                <img class="ml-0 w-[15%] h-[15%]" src="fruit3.png" alt="">
+                <img class="ml-0 w-[15%] h-[15%]" src="fruit4.png" alt="">
+                <img class="ml-0 w-[15%] h-[15%]" src="fruit5.png" alt="">
+            </div>
+        </section>
+
+        <!--deal section-->
+        <section>
+            <div class="flex flex-col md:flex-row">
+              <div class="flex-1 font-sans text-center md:text-start">
+                <h2 class="text-3xl font-black mt-[10px] md:mt-[0px]">Deal of the day</h2>
+                <p class="mb-[35px] text-gray-700 md:mb-0 px-4 md:p-0 md:w-[500px] text-sm mt-[15px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
+                    Latin literature from 45 BC, making it over 2000 years old.</p>
+              </div>
+              <div class=" max-w-[300px] mx-auto">
+                <div class="grid grid-flow-col gap-9 text-center auto-cols-max font-serif">
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-3xl md:text-5xl">
+                        <span style="--value:15;"></span>
+                      </span>
+                      days
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-3xl md:text-5xl">
+                        <span style="--value:10;"></span>
+                      </span>
+                      hours
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-3xl md:text-5xl">
+                        <span style="--value:24;"></span>
+                      </span>
+                      min
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-mono text-3xl md:text-5xl">
+                        <span style="--value:48;"></span>
+                      </span>
+                      sec
+                    </div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+
+        <!--dealbox-->
+
+        <div class="container grid grid-cols-4">
+           <div class="singlebox">
+               <img src="fruit6.png" alt="">
+               <h2>12.90$ - 18.85$</h2>
+               <hr>
+               <p>Apples</p>
+           
+            <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div><br>
+              <!-- Open the modal using ID.showModal() method -->
+             <button class="btn" onclick="my_modal_5.showModal()">Details</button>
+              <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                 <h3 class="font-bold text-lg">Hello!</h3>
+                    <p class="py-4">Press ESC key or click the button below to close</p>
+                    <div class="modal-action">
+                 <!-- if there is a button in form, it will close the modal -->
+                     <button class="btn">Close</button>
+                 </div>
+                </form>
+                </dialog>
+            </div>
+           <div class="singlebox">
+               <img src="fruit6.png" alt="">
+               <h2>12.90$ - 18.85$</h2>
+               <hr>
+               <p>Apples</p>
+           
+            <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div><br>
+              <!-- Open the modal using ID.showModal() method -->
+             <button class="btn" onclick="my_modal_5.showModal()">Details</button>
+              <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                 <h3 class="font-bold text-lg">Hello!</h3>
+                    <p class="py-4">Press ESC key or click the button below to close</p>
+                    <div class="modal-action">
+                 <!-- if there is a button in form, it will close the modal -->
+                     <button class="btn">Close</button>
+                 </div>
+                </form>
+                </dialog>
+            </div>
+           <div class="singlebox">
+               <img src="fruit6.png" alt="">
+               <h2>12.90$ - 18.85$</h2>
+               <hr>
+               <p>Apples</p>
+           
+            <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div><br>
+              <!-- Open the modal using ID.showModal() method -->
+             <button class="btn" onclick="my_modal_5.showModal()">Details</button>
+              <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                 <h3 class="font-bold text-lg">Hello!</h3>
+                    <p class="py-4">Press ESC key or click the button below to close</p>
+                    <div class="modal-action">
+                 <!-- if there is a button in form, it will close the modal -->
+                     <button class="btn">Close</button>
+                 </div>
+                </form>
+                </dialog>
+            </div>
+           <div class="singlebox">
+               <img src="fruit6.png" alt="">
+               <h2>12.90$ - 18.85$</h2>
+               <hr>
+               <p>Apples</p>
+           
+            <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div><br>
+              <!-- Open the modal using ID.showModal() method -->
+             <button class="btn" onclick="my_modal_5.showModal()">Details</button>
+              <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                 <h3 class="font-bold text-lg">Hello!</h3>
+                    <p class="py-4">Press ESC key or click the button below to close</p>
+                    <div class="modal-action">
+                 <!-- if there is a button in form, it will close the modal -->
+                     <button class="btn">Close</button>
+                 </div>
+                </form>
+                </dialog>
+            </div>
+            </div>
+        </div>
+
+
+        </section>
     </main>
 
     <footer>
