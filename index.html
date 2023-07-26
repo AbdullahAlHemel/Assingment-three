@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/d565b4e8fe.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="oad-39.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Market</title>
+    <!--customize-->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header md:container mx-auto>
+        <!--navbar-->
+        <nav>
+<div class="navbar bg-base-100 md:w-[92%] m-auto bg-[#F85559] rounded-full my-4 md:p-6 md:my-12
+         text-white md:px-[20px]">
+                <div class=" navbar-start hidden lg:flex">
+                    <ul class="space-x-7 menu-horizontal px-1 ml-5">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+                <div class="navbar-start flex ml-5">
+                  <div class="dropdown end ">
+                    <label tabindex="0" class="btn btn-ghost md:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label><ul tabindex="0" class="text-black menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home<a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                      </ul>
+                    
+                  </div>
+                  <div></div>
+                  <img class="mr-2 ml-[75%] md:mx-[0px] w-[35px] lg:w-[50px]" src="logo.png" alt="">
+                  <a class="font-semibold lg:ml-3 normal-case text-2xl md:w-[100px] lg:w-[200px] lg:text-4xl">Fruit Burst</a>
+                </div>
+                <div class="md:visible invisible">
+                  <a class="relative"><input class=" text-blue-950 w-24 md:w-80 rounded-full p-3 px-6" type="text" name="" id="" placeholder="Search here" ><i class="text-black md:mr-4 absolute left-[90%] top-[35%] cursor-pointer fa-solid fa-magnifying-glass"></i></a>
+                </div>
+              </div>
+        </nav>
+    </header>
+    
+    <main>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
