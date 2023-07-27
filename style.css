@@ -12,9 +12,9 @@ body{margin: 0;padding: 0;}
     font-family: sans-serif;
     font-weight: 700;
     }
-    .singlebox{
+    .singlebox{border: 1px solid rgb(207, 207, 207);border-radius: 8px;
         padding: 37px;
-        box-shadow: 1px 1px 20px #52525285;
+        box-shadow: 1px 1px 20px #71717185;
     }
 
 .container.grid.grid-cols-4 {
@@ -36,9 +36,16 @@ body{margin: 0;padding: 0;}
     text-align: center;
     margin: 9px 0;
     color: #000000cc;
+
 }
 
+.rating{margin-left: 35px;}
 
+.grid.grid-flow-col.gap-9.text-center.auto-cols-max.font-serif {
+    MARGIN-LEFT: -22PX;
+}
 
-
-
+.team-bgimg{background-image:linear-gradient(rgb(0 0 0 / 40%), rgb(0 0 0 / 40%)),url(team.png);}
+.grid.grid-rows-3.md\:grid-cols-3.mt-4 {
+    height: 400px;
+}
