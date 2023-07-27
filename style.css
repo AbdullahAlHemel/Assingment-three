@@ -4,7 +4,7 @@ body{margin: 0;padding: 0;}
 #slide3{background-image:linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 5%)),url(banner3.png);background-size: cover;}
 #slide4{background-image:linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 5%)),url(banner4.png);background-size: cover;}
 .main{max-width:1140px}
-
+.sh:hover{cursor: pointer;}
 .countdown > * {
     height: 1em;
     display: inline-block;
@@ -48,4 +48,7 @@ body{margin: 0;padding: 0;}
 .team-bgimg{background-image:linear-gradient(rgb(0 0 0 / 40%), rgb(0 0 0 / 40%)),url(team.png);}
 .grid.grid-rows-3.md\:grid-cols-3.mt-4 {
     height: 400px;
+}
+div#slide1,div#slide2,div#slide3,div#slide4{
+    border-radius: 10px;
 }
